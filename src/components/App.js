@@ -8,8 +8,8 @@ const heading ={
 }
   return (
     <div id="main">
-      <h1 >Success</h1>
-      <h1 id='error' >Error</h1>
+      <h1 style={{color: "red"}}>Success</h1>
+      <h1  id='error'  style={{color: "green"}} >Error</h1>
     </div>
   )
 }
